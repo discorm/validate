@@ -1,0 +1,38 @@
+{
+  "name": "@disco/validate",
+  "version": "1.0.0",
+  "description": "Object validator, with async/await support!",
+  "author": "Stephen Belanger <admin@stephenbelanger.com> (http://stephenbelanger.com/)",
+  "main": "lib/validate.js",
+  "license": "MIT",
+  "scripts": {
+    "precoverage": "npm run test",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "lint": "standard",
+    "pretest": "npm run lint",
+    "test": "nyc tap test.js"
+  },
+  "keywords": [
+    "disco",
+    "object",
+    "validation",
+    "validator"
+  ],
+  "homepage": "https://github.com/discorm/validate#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discorm/validate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/discorm/validate/issues"
+  },
+  "dependencies": {
+    "dotpath": "^1.0.0"
+  },
+  "devDependencies": {
+    "codecov": "^3.6.5",
+    "nyc": "^15.0.0",
+    "standard": "^14.3.1",
+    "tap": "^14.10.6"
+  }
+}
