@@ -1,5 +1,8 @@
 # @disco/validate
 
+[![CI status](https://github.com/discorm/validate/workflows/ci/badge.svg)](https://github.com/discorm/validate/actions?query=workflow%3Aci+branch%3Amaster)
+[![Coverage Status](https://coveralls.io/repos/discorm/validate/badge.png)](https://coveralls.io/r/discorm/validate)
+
 Builds a reusable schema validator using nested objects and functions to
 describe the expected structure.
 
