@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "precoverage": "npm run test",
-    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "coverage": "nyc report --reporter=lcov",
     "lint": "standard",
     "pretest": "npm run lint",
     "test": "nyc tap test.js"
@@ -30,7 +30,6 @@
     "dotpath": "^1.0.0"
   },
   "devDependencies": {
-    "codecov": "^3.6.5",
     "nyc": "^15.0.0",
     "standard": "^14.3.1",
     "tap": "^14.10.6"
