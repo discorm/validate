@@ -2,6 +2,9 @@
 
 [![CI status](https://github.com/discorm/validate/workflows/ci/badge.svg)](https://github.com/discorm/validate/actions?query=workflow%3Aci+branch%3Amaster)
 [![Coverage Status](https://coveralls.io/repos/discorm/validate/badge.png)](https://coveralls.io/r/discorm/validate)
+[![npm package](https://img.shields.io/npm/v/@disco/validate)](https://npmjs.com/package/@disco/validate)
+[![Dependencies](https://img.shields.io/david/discorm/validate)](https://david-dm.org/discorm/validate)
+[![MIT License](https://img.shields.io/npm/l/@disco/validate)](./LICENSE)
 
 Builds a reusable schema validator using nested objects and functions to
 describe the expected structure.
@@ -139,7 +142,3 @@ for await (const error of validator.validate(data)) {
   console.error(error)
 }
 ```
-
-## License
-
-[MIT](./LICENSE)
